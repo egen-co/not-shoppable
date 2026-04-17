@@ -1,0 +1,17 @@
+@import "tailwindcss";
+@import "@alveusgg/data/build/tailwind.css";
+
+@plugin "tailwind-scrollbar";
+
+/* FIXME: https://github.com/tailwindlabs/tailwindcss/discussions/15253 */
+@theme inline {
+  --font-sans:
+    "Futura Now Text", ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  --font-serif:
+    "Futura Now Text", ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
+}
+
+@theme {
+  --default-transition-duration: 300ms;
+}

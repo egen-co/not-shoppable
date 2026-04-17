@@ -1,0 +1,34 @@
+[
+  {
+    "id": "pgp",
+    "name": "Power Grip Primer",
+    "category": "Face Primer",
+    "price": "$10.00",
+    "image_url": "https://www.elfcosmetics.com/dw/image/v2/BBXC_PRD/on/demandware.static/-/Sites-elf-master/default/dw4130e002/2019/85911_OpenA_R.jpg?sfrm=png&sw=780&q=90&strip=false",
+    "buy_url": "https://www.elfcosmetics.com/power-grip-primer/85911.html"
+  },
+  {
+    "id": "haloglow",
+    "name": "Halo Glow Liquid Filter",
+    "category": "Complexion Booster",
+    "price": "$14.00",
+    "image_url": "https://www.elfcosmetics.com/dw/image/v2/BBXC_PRD/on/demandware.static/-/Sites-elf-master/default/dw4130e002/2019/85911_OpenA_R.jpg?sfrm=png&sw=780&q=90&strip=false",
+    "buy_url": "https://www.elfcosmetics.com/halo-glow-liquid-filter/85951.html"
+  },
+  {
+    "id": "lipstick",
+    "name": "O FACE Satin Lipstick",
+    "category": "Lipstick",
+    "price": "$9.00",
+    "image_url": "https://www.elfcosmetics.com/dw/image/v2/BBXC_PRD/on/demandware.static/-/Sites-elf-master/default/dw4130e002/2019/85911_OpenA_R.jpg?sfrm=png&sw=780&q=90&strip=false",
+    "buy_url": "https://www.elfcosmetics.com/o-face-satin-lipstick/81781.html"
+  },
+  {
+    "id": "holyhydration",
+    "name": "Holy Hydration! Face Cream",
+    "category": "Skincare",
+    "price": "$13.00",
+    "image_url": "https://www.elfcosmetics.com/dw/image/v2/BBXC_PRD/on/demandware.static/-/Sites-elf-master/default/dw4130e002/2019/85911_OpenA_R.jpg?sfrm=png&sw=780&q=90&strip=false",
+    "buy_url": "https://www.elfcosmetics.com/holy-hydration-face-cream/82828.html"
+  }
+]

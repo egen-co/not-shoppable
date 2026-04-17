@@ -1,0 +1,124 @@
+{
+  "name": "@alveusgg/extension",
+  "version": "0.1.0",
+  "private": true,
+  "license": "SEE LICENSE IN LICENSE.md",
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alveusgg/extension.git"
+  },
+  "bugs": {
+    "url": "https://github.com/alveusgg/extension/issues"
+  },
+  "engines": {
+    "node": ">=24.11.0",
+    "pnpm": "^10.33.0"
+  },
+  "packageManager": "pnpm@10.33.0",
+  "scripts": {
+    "prepare": "husky",
+    "dev": "webpack serve",
+    "build": "webpack",
+    "lint:eslint": "eslint \"src/**/*.{js,jsx,ts,tsx}\"",
+    "lint:prettier": "prettier --check .",
+    "lint": "pnpm run \"/^lint:.*/\"",
+    "format:eslint": "pnpm lint:eslint --fix",
+    "format:prettier": "pnpm lint:prettier --write",
+    "format": "pnpm run \"/^format:.*/\"",
+    "types": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@alveusgg/data": "0.71.0",
+    "@headlessui/react": "^2.2.10",
+    "luxon": "^3.7.2",
+    "react": "^19.2.5",
+    "react-canvas-confetti": "^2.0.7",
+    "react-dom": "^19.2.5",
+    "tmi.js": "^1.8.5",
+    "zod": "^4.3.6"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.39.4",
+    "@pmmmwh/react-refresh-webpack-plugin": "^0.6.2",
+    "@tailwindcss/postcss": "^4.2.2",
+    "@trivago/prettier-plugin-sort-imports": "^6.0.2",
+    "@types/canvas-confetti": "^1.9.0",
+    "@types/eslint-config-prettier": "^6.11.3",
+    "@types/luxon": "^3.7.1",
+    "@types/node": "^24.12.2",
+    "@types/react": "^19.2.14",
+    "@types/react-dom": "^19.2.3",
+    "@types/tmi.js": "^1.8.6",
+    "@types/twitch-ext": "^1.24.9",
+    "@types/zip-webpack-plugin": "^3.0.6",
+    "copy-webpack-plugin": "^14.0.0",
+    "css-loader": "^7.1.4",
+    "dotenv": "^17.4.1",
+    "eslint": "^9.39.2",
+    "eslint-config-prettier": "^10.1.8",
+    "eslint-plugin-react": "^7.37.5",
+    "fork-ts-checker-webpack-plugin": "^9.1.0",
+    "html-webpack-plugin": "^5.6.6",
+    "husky": "^9.1.7",
+    "lint-staged": "^16.4.0",
+    "mini-css-extract-plugin": "^2.10.2",
+    "postcss-loader": "^8.2.1",
+    "prettier": "^3.8.2",
+    "prettier-plugin-tailwindcss": "^0.7.2",
+    "react-refresh-typescript": "^2.0.12",
+    "style-loader": "^4.0.0",
+    "tailwind-scrollbar": "^4.0.2",
+    "tailwindcss": "^4.2.2",
+    "ts-loader": "^9.5.7",
+    "typescript": "^5.9.3",
+    "typescript-eslint": "^8.58.1",
+    "webpack": "^5.106.1",
+    "webpack-cli": "^7.0.2",
+    "webpack-dev-server": "^5.2.3",
+    "webpack-image-resize-loader": "^5.0.0",
+    "zip-webpack-plugin": "^4.0.3"
+  },
+  "main": "public/index.html",
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "prettier": {
+    "plugins": [
+      "@trivago/prettier-plugin-sort-imports",
+      "prettier-plugin-tailwindcss"
+    ],
+    "tailwindStylesheet": "./src/styles/tailwind.css",
+    "importOrder": [
+      "<BUILTIN_MODULES>",
+      "<THIRD_PARTY_MODULES>",
+      "^@alveusgg/data(/.+)?$",
+      "^(\\.\\./)+utils/",
+      "^(\\.\\./)+hooks/",
+      "^(\\.\\./)+components/(?!icons/)",
+      "^(\\.\\./)+(components/)?icons/",
+      "^(\\.\\./)+styles/",
+      "^(\\.\\./)+assets/",
+      "^(\\.\\./)+",
+      "^\\./utils/",
+      "^\\./hooks/",
+      "^\\./components/(?!icons/)",
+      "^\\./(components/)?icons/",
+      "^\\./styles/",
+      "^\\./assets/",
+      "^\\./"
+    ],
+    "importOrderSeparation": true,
+    "importOrderSortSpecifiers": true,
+    "importOrderSideEffects": false
+  }
+}
