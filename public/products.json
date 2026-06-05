@@ -8,27 +8,91 @@
     "buy_url": "https://go.elfcosmetics.com/grlipoil"
   },
   {
-    "id": "2",
+    "id": "1",
     "name": "Sheer For It Blush Tint",
     "category": "Makeup",
-    "price": "$14.00",
-    "image_url": "https://www.elfcosmetics.com/dw/image/v2/BBXC_PRD/on/demandware.static/-/Sites-elf-master/default/dw4130e002/2019/85911_OpenA_R.jpg?sfrm=png&sw=780&q=90&strip=false",
-    "buy_url": "https://www.elfcosmetics.com/halo-glow-liquid-filter/85951.html"
+    "price": "$9.00",
+    "image_url": "https://cdn.shopify.com/s/files/1/0661/2251/4520/files/82324_OpenA_V4_R.png?v=1776967382&width=720&height=720&crop=center",
+    "buy_url": "https://go.elfcosmetics.com/sheerforit"
   },
   {
-    "id": "3",
+    "id": "1",
     "name": "Power Grip Dewy Setting Spray",
     "category": "Makeup",
-    "price": "$11.00",
-    "image_url": "https://www.elfcosmetics.com/dw/image/v2/BBXC_PRD/on/demandware.static/-/Sites-elf-master/default/dw4130e002/2019/85911_OpenA_R.jpg?sfrm=png&sw=780&q=90&strip=false",
-    "buy_url": "https://www.elfcosmetics.com/o-face-satin-lipstick/81781.html"
+    "price": "$9.00",
+    "image_url": "https://cdn.shopify.com/s/files/1/0661/2251/4520/files/84759_Open_A_V9_R.png?v=1776967370&width=720&height=720&crop=center",
+    "buy_url": "https://go.elfcosmetics.com/pgpdewy"
   },
   {
-    "id": "4",
-    "name": "Holy Hydration! Face Cream",
+    "id": "1",
+    "name": "Halo Glow Skin Tint SPF 50",
+    "category": "Makeup",
+    "price": "$9.00",
+    "image_url": "https://cdn.shopify.com/s/files/1/0661/2251/4520/files/HaloGlowSkinTint_84504_6a487b87-82f5-4dd4-a43a-4a52c82cc560.png?v=1780255757&width=720&height=720&crop=center",
+    "buy_url": "https://go.elfcosmetics.com/HGtint"
+  },
+  {
+    "id": "1",
+    "name": "Power Grip Primer",
+    "category": "Makeup",
+    "price": "$9.00",
+    "image_url": "https://cdn.shopify.com/s/files/1/0661/2251/4520/files/82846_OpenA_R_ee84794a-a423-4781-8f1b-8299e65abb11.png?v=1778006929&width=720&height=720&crop=center",
+    "buy_url": "https://go.elfcosmetics.com/powergripprimer"
+  },
+  {
+    "id": "1",
+    "name": "Halo Glow Liquid Filter",
+    "category": "Makeup",
+    "price": "$9.00",
+    "image_url": "https://cdn.shopify.com/s/files/1/0661/2251/4520/files/83565_OpenA_V2_R_d02ae91d-8a71-4bba-bfbb-ab663a9b18f0.png?v=1780430096&width=720&height=720&crop=center",
+    "buy_url": "https://go.elfcosmetics.com/HGfilter"
+  },
+  {
+    "id": "6",
+    "name": "Suntouchable Whoa Glow SPF 30",
+    "category": "Skincare",
+    "price": "$15.00",
+    "image_url": "https://cdn.shopify.com/s/files/1/0661/2251/4520/files/57278_CLOSED_R_2ac4a804-d186-43bf-898d-371ef0b4356f.png?v=1776967413&width=720&height=720&crop=center",
+    "buy_url": "https://go.elfcosmetics.com/whoaglow"
+  },
+  {
+    "id": "6",
+    "name": "Holy Hydration! Thirst Burst Drops",
     "category": "Skincare",
     "price": "$13.00",
-    "image_url": "https://www.elfcosmetics.com/dw/image/v2/BBXC_PRD/on/demandware.static/-/Sites-elf-master/default/dw4130e002/2019/85911_OpenA_R.jpg?sfrm=png&sw=780&q=90&strip=false",
-    "buy_url": "https://www.elfcosmetics.com/holy-hydration-face-cream/82828.html"
+    "image_url": "https://cdn.shopify.com/s/files/1/0661/2251/4520/files/57586_OpenA_v6_R_670116b2-378a-47d0-86eb-100f3cde332f.png?v=1777056062&width=720&height=720&crop=center",
+    "buy_url": "https://go.elfcosmetics.com/TBdrops"
+  },
+  {
+    "id": "6",
+    "name": "Holy Hydration! Makeup Melting Cleansing Balm",
+    "category": "Skincare",
+    "price": "$12.00",
+    "image_url": "https://cdn.shopify.com/s/files/1/0661/2251/4520/files/59910_SCREM_Closed_R_b2f42f49-5465-409f-ac51-557704db3b8b.png?v=1778587286&width=720&height=720&crop=center",
+    "buy_url": "https://go.elfcosmetics.com/cleansingbalm"
+  },
+  {
+    "id": "6",
+    "name": "Youth Boosting Blue-ty Sleep Night Oil",
+    "category": "Skincare",
+    "price": "$19.00",
+    "image_url": "https://cdn.shopify.com/s/files/1/0661/2251/4520/files/57323_Closed_V2_R.png?v=1776967423&width=720&height=720&crop=center",
+    "buy_url": "https://go.elfcosmetics.com/bluetysleep"
+  },
+  {
+    "id": "6",
+    "name": "Bright Icon Vitamin C + E + Ferulic Serum",
+    "category": "Skincare",
+    "price": "$17.00",
+    "image_url": "https://cdn.shopify.com/s/files/1/0661/2251/4520/files/57615_Closed_V3_R_b83e7ca2-0c67-40e8-bad5-7b3e79b2f7b7.png?v=1777056005&width=720&height=720&crop=center",
+    "buy_url": "https://go.elfcosmetics.com/vitaminC"
+  },
+  {
+    "id": "6",
+    "name": "Holy Hydration! Triple Bounce Serum",
+    "category": "Skincare",
+    "price": "$13.00",
+    "image_url": "https://cdn.shopify.com/s/files/1/0661/2251/4520/files/57167_CLOSED_R.png?v=1776967306&width=720&height=720&crop=center",
+    "buy_url": "https://go.elfcosmetics.com/tripleboost"
   }
 ]

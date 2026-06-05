@@ -18,7 +18,8 @@ import useSleeping from "../../hooks/useSleeping";
 
 import Welcome from "../../../../components/Welcome";
 
-import IconProducts from "../../../../components/icons/IconProducts";
+import IconLipstick from "../../../../components/icons/IconLipstick";
+import IconWaterdrop from "../../../../components/icons/IconWaterdrop";
 import IconSettings from "../../../../components/icons/IconSettings";
 import IconWelcome from "../../../../components/icons/IconWelcome";
 
@@ -52,7 +53,7 @@ const overlayOptions = [
   {
     key: "makeup",
     type: "primary",
-    icon: IconProducts,
+    icon: IconLipstick,
     title: "Makeup Products",
     component: (props) => (
       <AmbassadorsOverlay {...props} category="makeup" />
@@ -61,7 +62,7 @@ const overlayOptions = [
   {
     key: "skincare",
     type: "primary",
-    icon: IconProducts,
+    icon: IconWaterdrop,
     title: "Skincare Products",
     component: (props) => (
       <AmbassadorsOverlay {...props} category="skincare" />

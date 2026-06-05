@@ -125,7 +125,7 @@ export default function Ambassadors(props: AmbassadorsProps) {
       <div className="relative z-10 flex flex-col items-center">
         <div
           ref={productList}
-          className="list-fade -my-[var(--twitch-vertical-padding)] scrollbar-none flex w-40 flex-col items-center gap-4 overflow-scroll px-4 py-[calc(var(--twitch-vertical-padding)+var(--list-fade-padding))]"
+          className="list-fade -my-[var(--twitch-vertical-padding)] scrollbar-none flex w-48 flex-col items-center gap-4 overflow-scroll px-4 py-[calc(var(--twitch-vertical-padding)+var(--list-fade-padding))]"
           onScroll={handleArrowVisibility}
         >
           {products.map((product) => (
@@ -138,13 +138,20 @@ export default function Ambassadors(props: AmbassadorsProps) {
                 )
               }
               className={classes(
-                "w-full border border-white py-2 px-1 text-[10px] uppercase tracking-tighter transition-colors hover:bg-white hover:text-black",
+            "flex w-full items-center gap-2 border border-white p-2 text-xs uppercase tracking-tighter transition-colors hover:bg-white hover:text-black",
                 activeProductId === String(product.id)
                   ? activeIdClass
                   : "bg-black text-white",
               )}
             >
-              {product.name}
+          {product.image_url && (
+            <img
+              src={product.image_url}
+              alt=""
+              className="h-10 w-10 shrink-0 object-contain"
+            />
+          )}
+          <span className="flex-1 text-left">{product.name}</span>
             </button>
           ))}
         </div>
