@@ -5,6 +5,7 @@ import {
   useCallback,
   useEffect,
   useRef,
+  useMemo,
   useState,
 } from "react";
 
@@ -25,13 +26,20 @@ const arrowPathClass =
   "[&_path]:stroke-alveus-tan [&_path]:stroke-[0.25rem] [&_path]:[paint-order:stroke] [&_path]:transition-[stroke] [&_path]:group-hover:stroke-highlight [&_path]:group-hover:stroke-[0.375rem] [&_path]:group-focus:stroke-highlight [&_path]:group-focus:stroke-[0.375rem]";
 const hiddenClass = "opacity-0 pointer-events-none";
 
-type AmbassadorsProps = OverlayOptionProps & { plants?: boolean };
+type AmbassadorsProps = OverlayOptionProps & { category?: string };
 const activeIdClass = "bg-white text-black font-bold";
 
 export default function Ambassadors(props: AmbassadorsProps) {
-  const { className, context } = props;
+  const { className, context, category } = props;
   const { activeProduct, setActiveProduct } = context;
-  const { products, loading } = useProducts(PRODUCT_DATA_URL);
+  const { products: allProducts, loading } = useProducts(PRODUCT_DATA_URL);
+
+  const products = useMemo(() => {
+    if (!category) return allProducts;
+    return allProducts.filter(
+      (p: any) => p.category?.toLowerCase() === category.toLowerCase(),
+    );
+  }, [allProducts, category]);
 
   const activeProductId = activeProduct.key || null;
 

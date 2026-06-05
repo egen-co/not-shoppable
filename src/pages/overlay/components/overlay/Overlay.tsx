@@ -50,11 +50,22 @@ const overlayOptions = [
     ),
   },
   {
-    key: "ambassadors",
+    key: "makeup",
     type: "primary",
     icon: IconProducts,
-    title: "Makeup and Skincare Products",
-    component: AmbassadorsOverlay,
+    title: "Makeup Products",
+    component: (props) => (
+      <AmbassadorsOverlay {...props} category="makeup" />
+    ),
+  },
+  {
+    key: "skincare",
+    type: "primary",
+    icon: IconProducts,
+    title: "Skincare Products",
+    component: (props) => (
+      <AmbassadorsOverlay {...props} category="skincare" />
+    ),
   },
   {
     key: "settings",
@@ -130,7 +141,11 @@ export default function Overlay() {
               setActiveProduct({ key: String(product.id), isCommand: true });
 
             // Show the card
-            setVisibleOption(product ? "ambassadors" : "welcome");
+            setVisibleOption(
+              product
+                ? (product.category?.toLowerCase() as OverlayKey)
+                : "welcome",
+            );
 
             // Dismiss the overlay after a delay
             if (timeoutRef.current) clearTimeout(timeoutRef.current);

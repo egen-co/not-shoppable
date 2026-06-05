@@ -74,7 +74,7 @@ const settings = {
     title: "Menu that was last opened",
     type: "string",
     process: (value: any): OverlayKey =>
-      isValidOverlayKey(value) ? value : "ambassadors",
+      isValidOverlayKey(value) ? value : "makeup",
     configurable: false,
   },
 } as const satisfies Record<string, Setting>;

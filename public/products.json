@@ -1,30 +1,30 @@
 [
   {
-    "id": "pgp",
-    "name": "Power Grip Primer",
-    "category": "Face Primer",
-    "price": "$10.00",
-    "image_url": "https://www.elfcosmetics.com/dw/image/v2/BBXC_PRD/on/demandware.static/-/Sites-elf-master/default/dw4130e002/2019/85911_OpenA_R.jpg?sfrm=png&sw=780&q=90&strip=false",
-    "buy_url": "https://www.elfcosmetics.com/power-grip-primer/85911.html"
+    "id": "1",
+    "name": "Glow Reviver Lip Oil",
+    "category": "Makeup",
+    "price": "$9.00",
+    "image_url": "https://cdn.shopify.com/s/files/1/0661/2251/4520/files/82013_OPENA_v5_R_2fb5e6e7-d342-4425-b7a3-07361f3bc76a.png?v=1780264169&width=720&height=720&crop=center",
+    "buy_url": "https://go.elfcosmetics.com/grlipoil"
   },
   {
-    "id": "haloglow",
-    "name": "Halo Glow Liquid Filter",
-    "category": "Complexion Booster",
+    "id": "2",
+    "name": "Sheer For It Blush Tint",
+    "category": "Makeup",
     "price": "$14.00",
     "image_url": "https://www.elfcosmetics.com/dw/image/v2/BBXC_PRD/on/demandware.static/-/Sites-elf-master/default/dw4130e002/2019/85911_OpenA_R.jpg?sfrm=png&sw=780&q=90&strip=false",
     "buy_url": "https://www.elfcosmetics.com/halo-glow-liquid-filter/85951.html"
   },
   {
-    "id": "lipstick",
-    "name": "O FACE Satin Lipstick",
-    "category": "Lipstick",
-    "price": "$9.00",
+    "id": "3",
+    "name": "Power Grip Dewy Setting Spray",
+    "category": "Makeup",
+    "price": "$11.00",
     "image_url": "https://www.elfcosmetics.com/dw/image/v2/BBXC_PRD/on/demandware.static/-/Sites-elf-master/default/dw4130e002/2019/85911_OpenA_R.jpg?sfrm=png&sw=780&q=90&strip=false",
     "buy_url": "https://www.elfcosmetics.com/o-face-satin-lipstick/81781.html"
   },
   {
-    "id": "holyhydration",
+    "id": "4",
     "name": "Holy Hydration! Face Cream",
     "category": "Skincare",
     "price": "$13.00",

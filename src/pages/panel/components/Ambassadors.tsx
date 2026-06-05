@@ -39,7 +39,7 @@ export default function Ambassadors() {
               <img
                 src={product.image_url}
                 alt={product.name}
-                className="h-full w-full object-cover grayscale group-hover:grayscale-0"
+                className="h-full w-full object-cover"
               />
             </div>
             <span className="text-center text-[10px] font-bold uppercase tracking-widest text-white group-hover:text-black">

@@ -12,7 +12,7 @@ export const ProductCard: React.FC<ProductCardProps> = ({ product }) => {
         <img 
           src={product.image_url} 
           alt={product.name} 
-          className="h-full w-full object-cover grayscale group-hover:grayscale-0 transition-all"
+          className="h-full w-full object-cover transition-all"
         />
       </div>
       <p className="text-xs uppercase tracking-widest text-gray-300 group-hover:text-gray-300">{product.category}</p>
